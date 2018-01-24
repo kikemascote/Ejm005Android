@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ls12docente.ejm05eneabr2018activitieslifecicle.App"
+    tools:layout_editor_absoluteY="81dp">
+
+    <LinearLayout
+        android:layout_width="368dp"
+        android:layout_height="495dp"
+        android:gravity="center_vertical|center_horizontal"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <Button
+            android:id="@+id/btnActTwo"
+            android:layout_width="135dp"
+            android:layout_height="wrap_content"
+            android:baselineAligned="false"
+            android:onClick="segunda"
+            android:text="Secunda" />
+
+        <Button
+            android:id="@+id/btnCamara"
+            android:layout_width="111dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="camara"
+            android:text="Camara"
+            tools:ignore="OnClick" />
+
+        <Button
+            android:id="@+id/btnActThree"
+            android:layout_width="111dp"
+            android:layout_height="wrap_content"
+            android:baselineAligned="false"
+            android:onClick="tercera"
+            android:text="tercera" />
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
